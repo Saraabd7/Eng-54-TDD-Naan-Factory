@@ -46,8 +46,11 @@ Usually has 3 phases.
 - asserting for expect output
 #### User stories for Naan Factory
 ```
-#1
-As a user, I can use the make_dough with water and flour to make dough.
+#1 
+As a user, I can use the make_dough with 'water' and 'flour' to make 'dough'.
+
 #2
-As a user, I can use the bake_dough with dough to get naan.
+As a user, I can use the bake_dough with dough to get naan. 
+
 #3
+As a user, I can user the run_factory with water and flour and get naan.
