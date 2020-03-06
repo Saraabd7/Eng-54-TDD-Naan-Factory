@@ -19,8 +19,8 @@ print('got:', make_dough('water', 'flour'))
 # 2
 # As a user, i can use the bake_dough with dough to get naan.
 print("calling bake_dough with dough, expect 'naan' as a result")
-print((bake_dough(make_dough, 'bread_maker')) == 'naan')
-print('got:', bake_dough(make_dough, 'bread_make'))
+print(((bake_dough('dough')) == 'naan'))
+print('got:', bake_dough('dough'))
 
 # 3
 # As a user, i can use the run_factory with water and flour and get naan
